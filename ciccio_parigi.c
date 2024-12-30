@@ -126,85 +126,85 @@ int main()
 	//TODO: load arc_triomphe.jpg, champs_elysees.jpg
 
 	//Map navigation images
-	Image tourEiffel = LoadImage("../assets/tour_eiffel.jpg");
+	Image tourEiffel = LoadImage("./assets/tour_eiffel.jpg");
 	ImageResize(&tourEiffel, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image louvreGallery = LoadImage("../assets/louvre_gallery.jpg");
+	Image louvreGallery = LoadImage("./assets/louvre_gallery.jpg");
 	ImageResize(&louvreGallery, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image moulineRouge = LoadImage("../assets/mouline_rouge_inside.png");
+	Image moulineRouge = LoadImage("./assets/mouline_rouge_inside.png");
 	ImageResize(&moulineRouge, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image arcTriomphe = LoadImage("../assets/arc_triomphe.jpg");
+	Image arcTriomphe = LoadImage("./assets/arc_triomphe.jpg");
 	ImageResize(&arcTriomphe, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image champsElysees = LoadImage("../assets/champs_elysees.jpg");
+	Image champsElysees = LoadImage("./assets/champs_elysees.jpg");
 	ImageResize(&champsElysees, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image hotelInvalides = LoadImage("../assets/hotel_invalides.jpg");
+	Image hotelInvalides = LoadImage("./assets/hotel_invalides.jpg");
 	ImageResize(&hotelInvalides, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image placeConcorde = LoadImage("../assets/place-concorde.jpg");
+	Image placeConcorde = LoadImage("./assets/place-concorde.jpg");
 	ImageResize(&placeConcorde, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image palaisGarnier = LoadImage("../assets/palais-garnier.jpg");
+	Image palaisGarnier = LoadImage("./assets/palais-garnier.jpg");
 	ImageResize(&palaisGarnier, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image montmatrePlaceTetre = LoadImage("../assets/montmatre_place_du_tetre.jpg");
+	Image montmatrePlaceTetre = LoadImage("./assets/montmatre_place_du_tetre.jpg");
 	ImageResize(&montmatrePlaceTetre, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image montmatreStreet = LoadImage("../assets/montmatre.jpg");
+	Image montmatreStreet = LoadImage("./assets/montmatre.jpg");
 	ImageResize(&montmatreStreet, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image sacreCouerStairs = LoadImage("../assets/sacre-couer-stairs-3.jpg");
+	Image sacreCouerStairs = LoadImage("./assets/sacre-couer-stairs-3.jpg");
 	ImageResize(&sacreCouerStairs, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image moulineRougeExt = LoadImage("../assets/mouling_rouge_ext.jpg");
+	Image moulineRougeExt = LoadImage("./assets/mouling_rouge_ext.jpg");
 	ImageResize(&moulineRougeExt, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image louvrePyramid = LoadImage("../assets/louvre_pyramid.jpg");
+	Image louvrePyramid = LoadImage("./assets/louvre_pyramid.jpg");
 	ImageResize(&louvrePyramid, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image saintChapelle = LoadImage("../assets/saint_chapelle.jpg");
+	Image saintChapelle = LoadImage("./assets/saint_chapelle.jpg");
 	ImageResize(&saintChapelle, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image pantheon = LoadImage("../assets/pantheon.jpg");
+	Image pantheon = LoadImage("./assets/pantheon.jpg");
 	ImageResize(&pantheon, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image notreDame = LoadImage("../assets/notre_dame.jpg");
+	Image notreDame = LoadImage("./assets/notre_dame.jpg");
 	ImageResize(&notreDame, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image monaLisa = LoadImage("../assets/mona_lisa.jpg");
+	Image monaLisa = LoadImage("./assets/mona_lisa.jpg");
 	ImageResize(&monaLisa, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
-	Image sacreCouerInside = LoadImage("../assets/sacre-couer-inside.jpg");
+	Image sacreCouerInside = LoadImage("./assets/sacre-couer-inside.jpg");
 	ImageResize(&sacreCouerInside, screenWidth - (screenWidth * 0.10), screenHeight - (screenHeight * 0.10));
 
 
 	//Characters and utilities images
 
-	Image ciccio = LoadImage("../assets/ciccio.png");
+	Image ciccio = LoadImage("./assets/ciccio.png");
 	ImageResize(&ciccio, screenWidth * 0.30, screenHeight * 0.30);
 
-	Image comicDialogRectangle = LoadImage("../assets/comic_dialog_rectangle.png");
+	Image comicDialogRectangle = LoadImage("./assets/comic_dialog_rectangle.png");
 	ImageResize(&comicDialogRectangle, screenWidth * 0.40, screenHeight * 0.40);
 
-	Image dogExample = LoadImage("../assets/vito_esempio.png");
+	Image dogExample = LoadImage("./assets/vito_esempio.png");
 	ImageResize(&dogExample, screenWidth * 0.40, screenHeight * 0.40);
 
-	Image dogKisses = LoadImage("../assets/vito_kisses.png");
+	Image dogKisses = LoadImage("./assets/vito_kisses.png");
 	ImageResize(&dogKisses, screenWidth * 0.40, screenHeight * 0.40);
 
-	Image leftArrow = LoadImage("../assets/left_arrow.png");
+	Image leftArrow = LoadImage("./assets/left_arrow.png");
 	ImageResize(&leftArrow, screenWidth * 0.10, screenHeight * 0.10);
 
-	Image rightArrow = LoadImage("../assets/right_arrow.png");
+	Image rightArrow = LoadImage("./assets/right_arrow.png");
 	ImageResize(&rightArrow, screenWidth * 0.10, screenHeight * 0.10);
 
-	Image upArrow = LoadImage("../assets/up_arrow.png");
+	Image upArrow = LoadImage("./assets/up_arrow.png");
 	ImageResize(&upArrow, screenWidth * 0.10, screenHeight * 0.10);
 
-	Image downArrow = LoadImage("../assets/arrow_down.png");
+	Image downArrow = LoadImage("./assets/arrow_down.png");
 	ImageResize(&downArrow, screenWidth * 0.10, screenHeight * 0.10);
 
 	//Textures 
@@ -270,7 +270,7 @@ int main()
 
 	//Music handling
 	InitAudioDevice();
-	Music music = LoadMusicStream("../assets/madame_sophie.mp3");
+	Music music = LoadMusicStream("./assets/madame_sophie.mp3");
 	PlayMusicStream(music);
 
 	enum Screen {
@@ -284,10 +284,10 @@ int main()
 	enum Screen screen = MAIN_TITLE_1;
 
 	//Fonts loading
-	Font gaglianeFont = LoadFont("../assets/La-Gagliane.otf");
-	Font parisienneFont = LoadFont("../assets/Parisienne-Regular.ttf");
-	Font obrigeFont = LoadFont("../assets/La-Obrige.otf");
-	Font parisishFont = LoadFont("../assets/Parisish.ttf");
+	Font gaglianeFont = LoadFont("./assets/La-Gagliane.otf");
+	Font parisienneFont = LoadFont("./assets/Parisienne-Regular.ttf");
+	Font obrigeFont = LoadFont("./assets/La-Obrige.otf");
+	Font parisishFont = LoadFont("./assets/Parisish.ttf");
 
 	const float titlesSize = 150.0;
 	const float fontSpacing = 0.0;
